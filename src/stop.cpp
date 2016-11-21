@@ -6,5 +6,6 @@ const char* return_message() {
 
 // [[Rcpp::export]]
 void call_stop() {
-  Rcpp::stop(return_message());
+  std::string msg = "message";
+  Rcpp::stop(msg);
 }
