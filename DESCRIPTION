@@ -11,3 +11,6 @@ Date: 2016-11-21
 BugReports: https://github.com/krlmlr/Rcpp.stop.test/issues
 URL: https://github.com/krlmlr/Rcpp.stop.test, http://krlmlr.github.io/Rcpp.stop.test
 Roxygen: list(markdown = TRUE)
+LinkingTo: Rcpp
+Imports: Rcpp
+RoxygenNote: 5.0.1.9000
