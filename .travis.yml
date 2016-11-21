@@ -8,3 +8,6 @@ warnings_are_errors: false
 env:
   global:
     - MAKEFLAGS="-j 2"
+
+before_script:
+- R -e 'install.packages("http://cran.r-project.org/src/contrib/Archive/Rcpp/Rcpp_0.12.5.tar.gz", repos = NULL)
