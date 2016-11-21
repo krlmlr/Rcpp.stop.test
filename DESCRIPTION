@@ -1,0 +1,13 @@
+Package: Rcpp.stop.test
+Title: What the Package Does (one line, title case)
+Version: 0.0-0
+Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
+Description: What the package does (one paragraph).
+Depends: R (>= 3.3.2)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Date: 2016-11-21
+BugReports: https://github.com/krlmlr/Rcpp.stop.test/issues
+URL: https://github.com/krlmlr/Rcpp.stop.test, http://krlmlr.github.io/Rcpp.stop.test
+Roxygen: list(markdown = TRUE)
